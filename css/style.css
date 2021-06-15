@@ -1,7 +1,7 @@
 /*
 	Kevin BERTAUX - Huddle 2021
 	Création		10/06/2021
-	Modification	11/06/2021
+	Modification	15/06/2021
 */
 
 :root {
@@ -19,24 +19,75 @@
 /* Typographie */
 
 body {
-	font-family: 'Open Sans', 'Poppins', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.6rem;
 	line-height: 1.5;
 	color: var(--text);
 	background-color: #fff;
 }
 
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size:  4rem;
+	line-height: 6rem;
+	font-weight: 600;
+}
+
 /* Layout */
 
 .container {
-	min-width: 128rem;
+	max-width: 128rem;
 }
 
 .site-header {
 	background-image: url(../images/hero_bg.svg);
+	background-position: left -1.75rem;
+	/* display: flex;
+	justify-content: center; */
+}
+
+/* Components */
+
+.btn {
+	font-size: 1.4rem;
+	line-height: 1.188;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+/* Banner */
+
+.banner {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-left: 8rem;
+	margin-right: 8rem;
+	padding-top: 4.8rem;
+}
+
+.menu-link {
+	color: var(--title);
+}
+
+.menu-item {
+	border-radius: 2.4rem;
+	width: 20.5rem;
+	height: 4.8rem;
+	padding: 1.5rem 6.5rem;
+	background-color: var(--inverted);
+	box-shadow: 0px 3px 11px var(--nav-btn-shadow);
+}
+
+/* Hero */
+
+.hero-section {
 	display: flex;
 }
 
-.main-nav {
-	
+.mockup {
+	min-width: 68rem;
+}
+.mockup img {
+	width: 100%;
 }
