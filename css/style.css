@@ -1,0 +1,42 @@
+/*
+	Kevin BERTAUX - Huddle 2021
+	Création		10/06/2021
+	Modification	11/06/2021
+*/
+
+:root {
+	--title: #00252E;
+	--text: #808E9A;
+	--cta: #FF52C1;
+	--social: #DFE4F0;
+	--nav-btn-shadow: #00000018;
+	--hero-cta-shadow: #FF52C12A;
+	--card-shadow: #0000001A;
+	--card-cta-shadow: #00252E39;
+	--inverted: #fff;
+}
+
+/* Typographie */
+
+body {
+	font-family: 'Open Sans', 'Poppins', sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	color: var(--text);
+	background-color: #fff;
+}
+
+/* Layout */
+
+.container {
+	min-width: 128rem;
+}
+
+.site-header {
+	background-image: url(../images/hero_bg.svg);
+	display: flex;
+}
+
+.main-nav {
+	
+}
