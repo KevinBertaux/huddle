@@ -252,16 +252,16 @@ a {
 	text-decoration: none;
 }
 
+.footer-link, .footer-link:hover, .footer-link:focus, .footer-link:visited {
+	color: var(--inverted);
+}
+
 .footer-link {
 	font-size: 1.8rem;
 }
 
 .footer-link:hover {
 	text-decoration: underline;
-}
-
-.footer-link:visited {
-	color: var(--inverted);
 }
 
 .social {
