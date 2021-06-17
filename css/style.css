@@ -294,6 +294,7 @@ a:hover{
 @media screen and (min-width: 36em) {
 	/* 576px */
 	.cta-link {
+		font-size: 1.4rem;
 		padding: 1.85rem 7rem;
 	}
 }
