@@ -1,7 +1,7 @@
 /*
 	Kevin BERTAUX - Huddle 2021
 	Création		10/06/2021
-	Modification	16/06/2021
+	Modification	17/06/2021
 */
 
 /* Appel des polices */
@@ -408,7 +408,7 @@ a:hover{
 /* Call to action */
 
 .cta {
-	width: 35rem;
+	max-width: 35rem;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: -7.2rem;
